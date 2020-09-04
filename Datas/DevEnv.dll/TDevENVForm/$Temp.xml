@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BizShellII>
+  <TDevENVForm>
+    <ID>1</ID>
+    <Item>LBL</Item>
+    <Title>Java 下载 URL</Title>
+    <CreateTime>3/28/2019 2:52:19 PM</CreateTime>
+    <UpdateTime>6/11/2020 1:21:36 PM</UpdateTime>
+    <BrowseText>https://www.oracle.com/technetwork/java/javase/downloads/index.html</BrowseText>
+    <EVKind>0</EVKind>
+    <EVValue>0</EVValue>
+  </TDevENVForm>
+  <TDevENVForm>
+    <ID>2</ID>
+    <Item>EV</Item>
+    <Title>JAVA_HOME</Title>
+    <CreateTime>12:00:00 AM</CreateTime>
+    <UpdateTime>6/11/2020 1:33:48 PM</UpdateTime>
+    <EVKind>0</EVKind>
+    <EVValue>0</EVValue>
+    <EVVariableName>JAVA_HOME</EVVariableName>
+    <EVVariableValue>{jdk目录}</EVVariableValue>
+  </TDevENVForm>
+  <TDevENVForm>
+    <ID>3</ID>
+    <Item>EV</Item>
+    <Title>Path 1</Title>
+    <CreateTime>3/29/2019 9:13:08 AM</CreateTime>
+    <UpdateTime>6/11/2020 1:33:50 PM</UpdateTime>
+    <EVKind>0</EVKind>
+    <EVValue>1</EVValue>
+    <EVVariableName>Path</EVVariableName>
+    <EVVariableValue>%JAVA_HOME%\bin</EVVariableValue>
+  </TDevENVForm>
+  <TDevENVForm>
+    <ID>4</ID>
+    <Item>EV</Item>
+    <Title>Path 2</Title>
+    <CreateTime>3/29/2019 9:13:33 AM</CreateTime>
+    <UpdateTime>6/11/2020 1:33:52 PM</UpdateTime>
+    <EVKind>0</EVKind>
+    <EVValue>1</EVValue>
+    <EVVariableName>Path</EVVariableName>
+    <EVVariableValue>%JAVA_HOME%\jre\bin</EVVariableValue>
+  </TDevENVForm>
+  <TDevENVForm>
+    <ID>5</ID>
+    <Item>EV</Item>
+    <Title>CLASSPATH 1</Title>
+    <CreateTime>12:00:00 AM</CreateTime>
+    <UpdateTime>6/11/2020 1:33:54 PM</UpdateTime>
+    <EVKind>0</EVKind>
+    <EVValue>1</EVValue>
+    <EVVariableName>CLASSPATH</EVVariableName>
+    <EVVariableValue>.</EVVariableValue>
+  </TDevENVForm>
+  <TDevENVForm>
+    <ID>6</ID>
+    <Item>EV</Item>
+    <Title>CLASSPATH 2</Title>
+    <CreateTime>12:00:00 AM</CreateTime>
+    <UpdateTime>6/11/2020 1:33:56 PM</UpdateTime>
+    <EVKind>0</EVKind>
+    <EVValue>1</EVValue>
+    <EVVariableName>CLASSPATH</EVVariableName>
+    <EVVariableValue>%JAVA_HOME%\lib\dt.jar</EVVariableValue>
+  </TDevENVForm>
+  <TDevENVForm>
+    <ID>7</ID>
+    <Item>EV</Item>
+    <Title>CLASSPATH 3</Title>
+    <CreateTime>12:00:00 AM</CreateTime>
+    <UpdateTime>6/11/2020 1:33:58 PM</UpdateTime>
+    <EVKind>0</EVKind>
+    <EVValue>1</EVValue>
+    <EVVariableName>CLASSPATH</EVVariableName>
+    <EVVariableValue>%JAVA_HOME%\lib\tools.jar</EVVariableValue>
+  </TDevENVForm>
+  <TDevENVForm>
+    <ID>8</ID>
+    <Item>WE</Item>
+    <Title>验证 1</Title>
+    <CreateTime>12:00:00 AM</CreateTime>
+    <UpdateTime>6/11/2020 1:21:36 PM</UpdateTime>
+    <EVKind>0</EVKind>
+    <EVValue>0</EVValue>
+    <WECmdLine>cmd.exe /K java -version</WECmdLine>
+  </TDevENVForm>
+  <TDevENVForm>
+    <ID>9</ID>
+    <Item>WE</Item>
+    <Title>验证 2</Title>
+    <CreateTime>12:00:00 AM</CreateTime>
+    <UpdateTime>6/11/2020 1:21:36 PM</UpdateTime>
+    <Desc>cmd.exe /K javac -version</Desc>
+    <EVKind>0</EVKind>
+    <EVValue>0</EVValue>
+    <WECmdLine>cmd.exe /C javac -version</WECmdLine>
+  </TDevENVForm>
+</BizShellII>

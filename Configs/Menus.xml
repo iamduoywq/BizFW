@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BizShellII CreateTime="2020/3/13 12:35:23" UpdateTime="9/4/2020 9:43:28 AM">
+  <!-- Custom Menu Define -->
+  <Commands>
+    <Menu_Help SID="MyDllFunc" Param="替换掉内置菜单。参考Menus.xml"/>
+    <MenuTest1 Caption="测试菜单1" SID="MyMultiForm" Param="123"/>
+    <MenuTest2 Caption="测试菜单2" SID="MyDllFunc" Param="添加菜单。参考Menus.xml"/>
+    <MenuAppCFG SID="AppConfigSettingForm"/>
+    <MenuDBConn SID="DBConnSettingForm" Image="1234.ico"/>
+    <MenuDBData SID="DBDataSettingForm"/>
+    <MenuLoginDlg SID="MEUserLoginDlg" ShortCut="Ctrl+L"/>
+    <MenuChangePasswordDlg SID="MEUserChangePasswordDlg"/>
+    <MenuUIFormDesign Caption="UIForm 界面设计" SID="UIFormDesignForm"/>
+    <MenuUIFormPropertiesDesign Caption="UIForm 属性设计" SID="UIFormPropertiesDesignForm"/>
+    <MenuUIDMDataSets Caption="全局DataSet设置" SID="UIDMDataSets"/>
+    <MenuUIProjectDesignForm SID="UIProjectDesignForm" Image="UIProjectDesignForm.ico"/>
+    <MenuUIDataDict SID="PhilipsKit.TDataDictAnalysisForm"/>
+    <MenuDBLocalFileTableViewForm Caption="本地文件数据库" SID="DBLocalFileTableViewForm">
+      <LocalFile>.\DBs\ExcelDB.xls</LocalFile>
+    </MenuDBLocalFileTableViewForm>
+    <MenuExcelToJsonSchemaForm SID="PhilipsKit.TExcelToJsonSchemaForm"/>
+  </Commands>
+  <!-- ToolBars Layout -->
+  <ToolBars CanCustomize="true">
+    <Bar_MainMenu>
+      <Menu_User>
+        <MenuLoginDlg/>
+        <MenuChangePasswordDlg/>
+        <Menu_Exit Separator="true"/>
+      </Menu_User>
+      <Menu_View>
+        <Menu_FuncPanel/>
+        <Menu_Preferences/>
+      </Menu_View>
+      <Menu_Window>
+        <Menu_Tabbed/>
+        <Menu_Cascade/>
+        <Menu_TileHori/>
+        <Menu_TileVert/>
+        <Menu_FormList Separator="true"/>
+        <Menu_CloseCurrentForm Separator="true"/>
+        <Menu_CloseOtherForms/>
+        <Menu_CloseAllForms/>
+      </Menu_Window>
+      <Menu_Other>
+        <Menu_DeveloperTools>
+          <Menu_RegisterService/>
+          <Menu_CommandService/>
+          <Menu_LoadingDLL/>
+        </Menu_DeveloperTools>
+        <Menu_ExploreMe/>
+        <Menu_Help Separator="true"/>
+        <Menu_About/>
+      </Menu_Other>
+    </Bar_MainMenu>
+    <Bar_QuickBar>
+      <Menu_Exit/>
+      <Menu_Preferences Separator="true"/>
+      <Menu__PhilipsKit_TFormatTextForm Separator="true"/>
+      <Menu__DevENV_TDevENVForm/>
+      <Menu_MDTestForm/>
+      <Menu_MDLocalFileForm Separator="true"/>
+      <Menu_BlobEditorForm/>
+      <Menu__DBTest_TDBConnTestForm/>
+      <Menu__VerifyUtils_TMsgPipeMonitorForm/>
+    </Bar_QuickBar>
+  </ToolBars>
+</BizShellII>

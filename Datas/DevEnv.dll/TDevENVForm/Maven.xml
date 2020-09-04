@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BizShellII CreateTime="2020/2/29 9:42:17" UpdateTime="2020/2/29 9:42:17">
+  <DevEnvItems>
+    <Items>
+      <item ID="1" Item="EV" Title="Maven 下载 URL" CreateTime="2019/4/16 22:06:17" UpdateTime="2020/2/29 9:36:56" BrowseText="http://maven.apache.org/download.cgi" Desc="Maven 下载 URL" EVKind="0" EVValue="0"/>
+      <item ID="2" Item="EV" Title="M2_HOME" CreateTime="2019/4/16 21:59:45" UpdateTime="2020/2/29 9:36:56" Desc="M2_HOME" EVKind="0" EVValue="0" EVVariableName="M2_HOME" EVVariableValue="{Maven目录}"/>
+      <item ID="3" Item="EV" Title="MAVEN_HOME" CreateTime="2019/4/16 21:59:23" UpdateTime="2020/2/29 9:36:56" Desc="MAVEN_HOME" EVKind="0" EVValue="0" EVVariableName="MAVEN_HOME" EVVariableValue="{Maven目录}"/>
+      <item ID="4" Item="EV" Title="Path=%M2_HOME%\bin" CreateTime="2019/4/16 22:00:01" UpdateTime="2020/2/29 9:36:56" Desc="Path=%M2_HOME%\bin" EVKind="0" EVValue="1" EVVariableName="Path" EVVariableValue="%M2_HOME%\bin"/>
+      <item ID="5" Item="EV" Title="执行 mvn help:system" CreateTime="2019/4/16 22:01:46" UpdateTime="2020/2/29 9:36:56" Desc="在 cmd 里执行 mvn help:system 执行一次，#13#10就会自动创建C:\Users\&lt;当前用户&gt;\.m2" EVKind="0" EVValue="0" WECmdLine="cmd.exe /C mvn help:system"/>
+      <item ID="6" Item="CF" Title="复制 settings_Philips.xml" CreateTime="2019/4/16 22:02:59" UpdateTime="2020/2/29 9:41:43" Desc="复制 settings_Philips.xml" EVKind="0" EVValue="0" CopyFileFrom=".\Datas\PhilipsKit.dll\TDevENVForm\settings_Philips.xml" CopyFileTo="%USERPROFILE%\.m2\settings.xml"/>
+      <item ID="7" Item="LBL" Title="修改”settings.xml” 文件中的仓库目录" CreateTime="2019/4/16 22:05:34" UpdateTime="2020/2/29 9:35:49" BrowseText="%USERPROFILE%\.m2\settings.xml" Desc="修改”settings.xml” 文件，#13#10&lt;localRepository&gt;d:/work&lt;/localRepository&gt;" EVKind="0" EVValue="0"/>
+      <item ID="8" Item="WE" Title="验证 mvn –version" CreateTime="2019/4/16 22:00:20" UpdateTime="2020/2/29 9:35:52" Desc="验证 mvn –version" EVKind="0" EVValue="0" WECmdLine="cmd.exe /C mvn –version"/>
+    </Items>
+  </DevEnvItems>
+</BizShellII>

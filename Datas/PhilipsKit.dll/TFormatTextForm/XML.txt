@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<BizShellII CreateTime="2019/6/17 21:36:30" UpdateTime="2019/6/20 13:02:47"><TDevENVForm><Variables><Variable name="{jdkĿ¼}">D:\Java1.8\</Variable><Variable name="{MavenĿ¼}">bbb</Variable><Variable name="{TomcatĿ¼}">cccc</Variable><Variable name="{Tomcat BinĿ¼}">ddddd</Variable></Variables></TDevENVForm></BizShellII>

@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Demo><item ID="1" Name="张三" Age="10" Score="91"/><item ID="2" Name="李四" Age="20" Score="92.3"/><item ID="3" Name="王五" Age="30" Score="93.45"/><item ID="4" Name="赵六" Age="40" Score="94.567"/><item ID="5" Name="XmlFile" Age="2"/></Demo>

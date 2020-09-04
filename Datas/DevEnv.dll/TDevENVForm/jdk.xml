@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BizShellII CreateTime="2020/2/29 9:35:26" UpdateTime="2020/2/29 9:35:26">
+  <DevEnvItems>
+    <Items>
+      <item ID="1" Item="EV" Title="Java 下载 URL" CreateTime="2019/3/28 14:52:19" UpdateTime="2020/2/29 9:35:08" BrowseText="https://www.oracle.com/technetwork/java/javase/downloads/index.html" EVKind="0" EVValue="0"/>
+      <item ID="2" Item="EV" Title="JAVA_HOME" UpdateTime="2020/2/29 9:35:08" EVKind="0" EVValue="0" EVVariableName="JAVA_HOME" EVVariableValue="{jdk目录}"/>
+      <item ID="3" Item="EV" Title="Path 1" CreateTime="2019/3/29 9:13:08" UpdateTime="2020/2/29 9:35:08" EVKind="0" EVValue="1" EVVariableName="Path" EVVariableValue="%JAVA_HOME%\bin"/>
+      <item ID="4" Item="EV" Title="Path 2" CreateTime="2019/3/29 9:13:33" UpdateTime="2020/2/29 9:35:08" EVKind="0" EVValue="1" EVVariableName="Path" EVVariableValue="%JAVA_HOME%\jre\bin"/>
+      <item ID="5" Item="EV" Title="CLASSPATH 1" UpdateTime="2020/2/29 9:35:08" EVKind="0" EVValue="1" EVVariableName="CLASSPATH" EVVariableValue="."/>
+      <item ID="6" Item="EV" Title="CLASSPATH 2" UpdateTime="2020/2/29 9:35:08" EVKind="0" EVValue="1" EVVariableName="CLASSPATH" EVVariableValue="%JAVA_HOME%\lib\dt.jar"/>
+      <item ID="7" Item="EV" Title="CLASSPATH 3" UpdateTime="2020/2/29 9:35:08" EVKind="0" EVValue="1" EVVariableName="CLASSPATH" EVVariableValue="%JAVA_HOME%\lib\tools.jar"/>
+      <item ID="8" Item="EV" Title="验证 1" UpdateTime="2020/2/29 9:35:09" EVKind="0" EVValue="0" WECmdLine="cmd.exe /K java -version"/>
+      <item ID="9" Item="EV" Title="验证 2" UpdateTime="2020/2/29 9:35:09" Desc="cmd.exe /K javac -version" EVKind="0" EVValue="0" WECmdLine="cmd.exe /C javac -version"/>
+    </Items>
+  </DevEnvItems>
+</BizShellII>

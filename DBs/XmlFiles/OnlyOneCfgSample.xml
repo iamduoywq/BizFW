@@ -1,0 +1,4 @@
+﻿<?xml version="1.0"?>
+<Demo>
+  <item ID="1" Name="张三" Age="10" Score="91"/>
+</Demo>

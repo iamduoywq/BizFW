@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="OrderID" fieldtype="i4"/>
+			<FIELD attrname="CustomerID" fieldtype="string.uni" WIDTH="10"/>
+			<FIELD attrname="EmployeeID" fieldtype="i4"/>
+			<FIELD attrname="OrderDate" fieldtype="dateTime"/>
+			<FIELD attrname="RequiredDate" fieldtype="dateTime"/>
+			<FIELD attrname="ShippedDate" fieldtype="dateTime"/>
+			<FIELD attrname="ShipVia" fieldtype="i4"/>
+			<FIELD attrname="Freight" fieldtype="fixed" DECIMALS="4" WIDTH="19"/>
+			<FIELD attrname="ShipName" fieldtype="string.uni" WIDTH="80"/>
+			<FIELD attrname="ShipAddress" fieldtype="string.uni" WIDTH="120"/>
+			<FIELD attrname="ShipCity" fieldtype="string.uni" WIDTH="30"/>
+			<FIELD attrname="ShipRegion" fieldtype="string.uni" WIDTH="30"/>
+			<FIELD attrname="ShipPostalCode" fieldtype="string.uni" WIDTH="20"/>
+			<FIELD attrname="ShipCountry" fieldtype="string.uni" WIDTH="30"/>
+		</FIELDS>
+	</METADATA>
+	<ROWDATA>
+		<ROW OrderID="10248" CustomerID="VINET" EmployeeID="5" OrderDate="19960704" RequiredDate="19960801" ShippedDate="19960716" ShipVia="3" Freight="32.3800" ShipName="Vins et alcools Chevalier" ShipAddress="59 rue de l&apos;Abbaye" ShipCity="Reims" ShipPostalCode="51100" ShipCountry="France"/>
+		<ROW OrderID="10249" CustomerID="TOMSP" EmployeeID="6" OrderDate="19960705" RequiredDate="19960816" ShippedDate="19960710" ShipVia="1" Freight="11.6100" ShipName="Toms Spezialitaten" ShipAddress="Luisenstr. 48" ShipCity="Munster" ShipPostalCode="44087" ShipCountry="Germany"/>
+		<ROW OrderID="10250" CustomerID="HANAR" EmployeeID="4" OrderDate="19960708" RequiredDate="19960805" ShippedDate="19960712" ShipVia="2" Freight="65.8300" ShipName="Hanari Carnes" ShipAddress="Rua do Paco, 67" ShipCity="Rio de Janeiro" ShipRegion="RJ" ShipPostalCode="05454-876" ShipCountry="Brazil"/>
+		<ROW OrderID="10251" CustomerID="VICTE" EmployeeID="3" OrderDate="19960708" RequiredDate="19960805" ShippedDate="19960715" ShipVia="1" Freight="41.3400" ShipName="Victuailles en stock" ShipAddress="2, rue du Commerce" ShipCity="Lyon" ShipPostalCode="69004" ShipCountry="France"/>
+		<ROW OrderID="10252" CustomerID="SUPRD" EmployeeID="4" OrderDate="19960709" RequiredDate="19960806" ShippedDate="19960711" ShipVia="2" Freight="51.3000" ShipName="Supremes delices" ShipAddress="Boulevard Tirou, 255" ShipCity="Charleroi" ShipPostalCode="B-6000" ShipCountry="Belgium"/>
+		<ROW OrderID="10253" CustomerID="HANAR" EmployeeID="3" OrderDate="19960710" RequiredDate="19960724" ShippedDate="19960716" ShipVia="2" Freight="58.1700" ShipName="Hanari Carnes" ShipAddress="Rua do Paco, 67" ShipCity="Rio de Janeiro" ShipRegion="RJ" ShipPostalCode="05454-876" ShipCountry="Brazil"/>
+	</ROWDATA>
+</DATAPACKET>

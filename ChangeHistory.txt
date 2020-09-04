@@ -1,0 +1,161 @@
+200831
+* Thread
+* MsgPipe
+* Socket
+
+200703
+- Dialog's InitDir
+
+200616
+* DelaySaveFile -> MsgSaveFile。延迟保存文件，修改成用消息的方式保存。
+
+200525
+* 去掉 IThreadService，分成 IThreadProc，IThreadFunc，IThreadFlow三个。
+
+200509
++ Log 支持自定义 Kind，这样就可以根据业务来区分日志内容。
++ Codec 支持 FileName 的Hash编码。
+
+200420
+* Fix Multi Thread in DLL
+* 调整所有跟多线程有关代码。特别是 Log
+
+200329
++ IThreadService 增加 APreProcName 前置事件的概念
+
+200328
++ IActiveFocusOnFree for DllForm 焦点
+* BLOBEditor 用 SynMemo 改写了一下。
+* 用是否主线程来区分是用 WaitFor 还是 WaitForMsg
+
+200326
++ Right mouse on MainForm Tab
++ Application.ProgressMessages in TThreadService
+
+200325
++ ThreadW & SocketW 完成备用
+
+200314
++ 开发者工具
+* 增加 DBBind 功能，不允许在线程完成前关闭 Form ，提供 Cancel 尝试放弃。
+
+200307
++ ITempDatas 临时数据,为了支援 BlobEditorForm
+
+200302
+* styleNull FontSize (PPI)
+* XmlFile FormatColumnName
+* YiYaDB, DateTime 之后还要区分 Date & Time
+
+200225
+* 针对 BizDB 调优，特别是 DBBind 的概念。
+* XML, UTF-16 -> UTF-8
+* DevEnv refact starting
+
+200208
+* MiniERP 支持新的 DB 线程方法
+
+200123
++  MiniDB 用线程完成 Open & Exec
+
+200117
++ ThreadService
++ IProc
+
+191225
+- StringTable + LoadString 的提取方式
+
+191218
++ MiniDB (for Knowleadge sharing & DB Demo)
+
+191128
+* Splash 的图片外置
+
+191121
+* 单实例用 GetSingleton, 多实例用 GetInstance
+
+191113
+* LoadOnStart (AutoSaveAndOpenForm)
+
+191106
+* Thread 使用 Threading 的机制
+
+190904
+* ProgressBarManage AV bug.
++ Test DB intf. Starting.
+
+190813
++ Full Register Service functions.
+* PreferrenceForm code
+
+190801
+* 重写 BizDB 中
+* 整理 uBizDllComm, uBizDevComm, uBizDBComm 中
+
+190701
+* Trans, FindTrans & FindSID
+
+190628
+- IOnAfterCreate
+* MainForm AfterCreate
+- WM_BizMsg。BizFW 不再使用消息控制。
+
+190627
+* Thread 函数可以替代 IOnAfterCreate 接口
+
+190626
+* Duplicate APP，删除所有非当前进程的同名进程。
++ FormatTextForm
+* XML LoadFromFile Encoding error 也能加载。
+
+190620
++ DevEnv.dll 完成
+
+190617
+* Xml NodeValue 读写
++ DEConfig
+
+190612
+* Publisher & Subscriper
+* TServiceCommand 为了 SubCaption
+
+190606
+- ITranslateSID。合并到 ITranslate 中去。
+
+190525
+* <Main>.<Menu> Layout Default值不要保存.
++ 扩展函数 StrToXXX, VarToXXX
++ LibService<T> 来自其他 Dll 的服务。
+* DevENV
++ ThreadPool 作为 MsgPipe 的内部机制。
+* Proxy -> Plugin
++ 线程执行类的定义 IThreadWorker
+
+190407
++ DevENV
+* IConfigService
+
+190317
+* MainService<T> -> SysService<T> 表示来自 exe 的服务
+
+8.0.1903.1028
+uBizDllComm.pas
++ GetMainService 区分“主服务”和 GetService 的“自定义服务”。
+* 因此提升了执行性能
++ 如果用的是 XE7 以上的 Delphi。支持范型的话，可以用 MainService<T> 替代 GetMainService。
+
+BizShell.exe
+* 优化 CodeAsResource 功能。让 Codes 和 CodeX 在定义时，区分成两种。 
++ 翻译提供 TransBySID，根据 SID 所在 DLL 来找翻译内容。
++ ISysDatas MainService
+  其实用的子类是 IDllDatas & IThreadDatas。
+  前者主要提供给各个模块存放 intf，在这个模块释放前，会释放这些 intf。
+  后者类似，当前线程的。
+
+uBizLog.dll
+* 日志格式的调整
+
+
+
+
+Before ignore because lasy to record

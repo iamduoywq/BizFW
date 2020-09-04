@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PeriodicData xmlns="http://www.w3.org/2001/XMLSchema-instance">
+	<PeriodicPacket Timestamp="2020-02-27T10:10:48">
+		<Event Type="Profile Sample 0" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:02:00" />
+			<AbsoluteTime Value="2/27/2020 10:12:48 AM" />
+			<AverageIPAP Value="12.4" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="7" />
+			<ExhaledTidalVol Value="20" />
+			<PeakInspiratoryFlow Value="3" />
+			<PctofTriggeredBreaths Value="36" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="11" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 1" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:04:00" />
+			<AbsoluteTime Value="2/27/2020 10:14:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="7" />
+			<ExhaledTidalVol Value="10" />
+			<PeakInspiratoryFlow Value="3" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="11" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 2" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:06:00" />
+			<AbsoluteTime Value="2/27/2020 10:16:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="7" />
+			<ExhaledTidalVol Value="10" />
+			<PeakInspiratoryFlow Value="4" />
+			<PctofTriggeredBreaths Value="6" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="11" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 3" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:08:00" />
+			<AbsoluteTime Value="2/27/2020 10:18:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="6" />
+			<ExhaledTidalVol Value="90" />
+			<PeakInspiratoryFlow Value="4" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 4" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:10:00" />
+			<AbsoluteTime Value="2/27/2020 10:20:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="4" />
+			<ExhaledTidalVol Value="60" />
+			<PeakInspiratoryFlow Value="6" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 5" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:12:00" />
+			<AbsoluteTime Value="2/27/2020 10:22:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="4" />
+			<ExhaledTidalVol Value="60" />
+			<PeakInspiratoryFlow Value="6" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 6" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:14:00" />
+			<AbsoluteTime Value="2/27/2020 10:24:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="50" />
+			<PeakInspiratoryFlow Value="6" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 7" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:16:00" />
+			<AbsoluteTime Value="2/27/2020 10:26:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="6" />
+			<ExhaledTidalVol Value="40" />
+			<PeakInspiratoryFlow Value="5" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 8" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:18:00" />
+			<AbsoluteTime Value="2/27/2020 10:28:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="6" />
+			<ExhaledTidalVol Value="40" />
+			<PeakInspiratoryFlow Value="5" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 9" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:20:00" />
+			<AbsoluteTime Value="2/27/2020 10:30:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="8" />
+			<ExhaledTidalVol Value="20" />
+			<PeakInspiratoryFlow Value="5" />
+			<PctofTriggeredBreaths Value="4" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="11" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 10" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:22:00" />
+			<AbsoluteTime Value="2/27/2020 10:32:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="9" />
+			<ExhaledTidalVol Value="20" />
+			<PeakInspiratoryFlow Value="5" />
+			<PctofTriggeredBreaths Value="1" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 11" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:24:00" />
+			<AbsoluteTime Value="2/27/2020 10:34:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="11" />
+			<ExhaledTidalVol Value="10" />
+			<PeakInspiratoryFlow Value="5" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 12" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:26:00" />
+			<AbsoluteTime Value="2/27/2020 10:36:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="12" />
+			<ExhaledTidalVol Value="10" />
+			<PeakInspiratoryFlow Value="4" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 13" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:28:00" />
+			<AbsoluteTime Value="2/27/2020 10:38:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="6" />
+			<ExhaledTidalVol Value="80" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 14" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:30:00" />
+			<AbsoluteTime Value="2/27/2020 10:40:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="20" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 15" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:32:00" />
+			<AbsoluteTime Value="2/27/2020 10:42:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="20" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 16" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:34:00" />
+			<AbsoluteTime Value="2/27/2020 10:44:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="20" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 17" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:36:00" />
+			<AbsoluteTime Value="2/27/2020 10:46:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="20" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 18" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:38:00" />
+			<AbsoluteTime Value="2/27/2020 10:48:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="20" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 19" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:40:00" />
+			<AbsoluteTime Value="2/27/2020 10:50:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="20" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 20" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:42:00" />
+			<AbsoluteTime Value="2/27/2020 10:52:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="20" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 21" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:44:00" />
+			<AbsoluteTime Value="2/27/2020 10:54:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="20" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 22" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:46:00" />
+			<AbsoluteTime Value="2/27/2020 10:56:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="20" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 23" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:48:00" />
+			<AbsoluteTime Value="2/27/2020 10:58:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="20" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 24" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:50:00" />
+			<AbsoluteTime Value="2/27/2020 11:00:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="30" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 25" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:52:00" />
+			<AbsoluteTime Value="2/27/2020 11:02:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="30" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 26" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:54:00" />
+			<AbsoluteTime Value="2/27/2020 11:04:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="30" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 27" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:56:00" />
+			<AbsoluteTime Value="2/27/2020 11:06:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="5" />
+			<ExhaledTidalVol Value="30" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 28" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="00:58:00" />
+			<AbsoluteTime Value="2/27/2020 11:08:48 AM" />
+			<AverageIPAP Value="12.4" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="11" />
+			<ExhaledTidalVol Value="10" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="4" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 29" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="01:00:00" />
+			<AbsoluteTime Value="2/27/2020 11:10:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="11" />
+			<ExhaledTidalVol Value="10" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="1" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 30" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="01:02:00" />
+			<AbsoluteTime Value="2/27/2020 11:12:48 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="11" />
+			<ExhaledTidalVol Value="10" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+		<Event Type="Profile Sample 31" HasUnparsedData="False" xmlns="">
+			<TimeOffsetFromSessionStart Value="01:03:26" />
+			<AbsoluteTime Value="2/27/2020 11:14:14 AM" />
+			<AverageIPAP Value="12.6" />
+			<AverageEPAP Value="6" />
+			<TotalLeak Value="11" />
+			<ExhaledTidalVol Value="10" />
+			<PeakInspiratoryFlow Value="1" />
+			<PctofTriggeredBreaths Value="0" />
+			<BreathRate Value="8" />
+			<PctofTiTot Value="10" />
+			<AlarmFlags Value="0x00" />
+			<MinuteVentilation Value="0" />
+			<HypopneaCount Value="0" />
+			<CACount Value="0" />
+			<OACount Value="0" />
+			<UnintentionalLeak Value="0" />
+		</Event>
+	</PeriodicPacket>
+</PeriodicData>

@@ -1,0 +1,86 @@
+<settings xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                               http://maven.apache.org/xsd/settings-1.0.0.xsd">
+	<localRepository>D:\Repository</localRepository>
+	<interactiveMode />
+	<usePluginRegistry />
+	<offline />
+	<pluginGroups />
+	<servers>
+		<server>
+			<id>default</id>
+			<username>admin</username>
+			<password>admin</password>
+		</server>
+		<server>
+			<id>nexus-releases</id>
+			<username>deployment</username>
+			<password>123</password>
+		</server>
+		<server>
+			<id>nexus-snapshots</id>
+			<username>deployment</username>
+			<password>123</password>
+		</server>
+		<server>
+			<id>nexus</id>
+			<username>deployment</username>
+			<password>123</password>
+		</server>
+	</servers>
+
+	<!--<proxies> <proxy> <active>true</active> <host>130.139.104.11</host> <port>8080</port> <username></username> 
+		<password></password> </proxy> </proxies> -->
+	<!-- <mirrors> <mirror> <id>nexus</id> <mirrorOf>*</mirrorOf> <url>http://130.147.249.6/nexus/content/groups/public/</url> 
+		</mirror> <mirror> <id>nexus</id> <mirrorOf>*</mirrorOf> <url>http://161.91.21.51/nexus/content/groups/public/</url> 
+		</mirror> </mirrors> -->
+
+	<mirrors>
+		<mirror>
+			<!--This sends everything else to /public -->
+			<id>nexus</id>
+			<mirrorOf>*</mirrorOf>
+			<url>http://130.147.249.6/nexus3/repository/public/</url>
+		</mirror>
+	</mirrors>
+
+	<profiles>
+		<profile>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<id>dev</id>
+			<repositories>
+				<repository>
+					<id>nexus</id>
+					<!-- <url>http://130.147.249.6/nexus/content/groups/public/</url> -->
+					<url>http://130.147.249.6/nexus3/repository/public/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+			</repositories>
+			<pluginRepositories>
+				<pluginRepository>
+					<id>nexus</id>
+					<!-- <url>http://130.147.249.6/nexus/content/groups/public/</url> -->
+					<url>http://130.147.249.6/nexus3/repository/public/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+			</pluginRepositories>
+		</profile>
+	</profiles>
+
+	<activeProfiles>
+		<activeProfile>dev</activeProfile>
+	</activeProfiles>
+
+</settings>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BizShellII CreateTime="2020/2/29 9:43:34" UpdateTime="2020/2/29 10:14:57">
+  <DevEnvItems>
+    <Items>
+      <item ID="1" Item="LBL" Title="Apache Tomcat 下载 URL" CreateTime="2019/4/16 21:04:39" UpdateTime="2020/2/29 10:10:59" BrowseText="http://tomcat.apache.org/" Desc="Apache Tomcat 下载 URL" EVKind="0" EVValue="0"/>
+      <item ID="2" Item="EV" Title="CATALINA_HOME" CreateTime="2019/4/16 21:05:54" UpdateTime="2020/2/29 10:11:04" Desc="CATALINA_HOME" EVKind="0" EVValue="0" EVVariableName="CATALINA_HOME" EVVariableValue="{Tomcat目录}"/>
+      <item ID="3" Item="EV" Title="CATALINA_BASE" CreateTime="2019/4/16 21:06:19" UpdateTime="2020/2/29 10:11:05" Desc="CATALINA_BASE" EVKind="0" EVValue="0" EVVariableName="CATALINA_BASE" EVVariableValue="{Tomcat目录}"/>
+      <item ID="4" Item="EV" Title="TOMCAT_HOME" CreateTime="2019/4/16 21:06:33" UpdateTime="2020/2/29 10:11:08" Desc="TOMCAT_HOME" EVKind="0" EVValue="0" EVVariableName="TOMCAT_HOME" EVVariableValue="{Tomcat目录}"/>
+      <item ID="5" Item="EV" Title="CLASSPATH" CreateTime="2019/4/16 21:06:46" UpdateTime="2020/2/29 10:11:10" Desc="CLASSPATH=%CATALINA_HOME%\common\lib\servlet.jar;" EVKind="0" EVValue="1" EVVariableName="CLASSPATH" EVVariableValue="%CATALINA_HOME%\common\lib\servlet.jar;"/>
+      <item ID="6" Item="LBL" Title="conf\tomcat-users.xml" CreateTime="2019/4/16 21:49:22" UpdateTime="2020/2/29 10:11:12" Desc="conf\tomcat-users.xml" EVKind="0" EVValue="0"/>
+      <item ID="7" Item="LBL" Title="添加一个 user" CreateTime="2019/4/16 21:51:34" UpdateTime="2020/2/29 10:11:14" Desc="添加一个 user 如下，其他的 user 建议注释掉。#13#10&lt;user username=&quot;admin&quot; password=&quot;admin&quot; roles=&quot;admin-gui,manager-gui&quot; /&gt;" EVKind="0" EVValue="0"/>
+      <item ID="8" Item="LBL" Title="bin\catalina.bat 添加如下文字部分" CreateTime="2019/4/16 21:50:06" UpdateTime="2020/2/29 10:11:16" Desc="bin\catalina.bat 添加如下文字部分#13#10rem ----- Execute The Requested Command ---------------------------------------#13#10rem -- Will Yan, 20170819, Change Memory Size#13#10set JAVA_OPTS=%JAVA_OPTS% -server -XX:PermSize=128M -XX:MaxPermSize=1024m#13#10echo Using CATALINA_BASE:   &quot;%CATALINA_BASE%&quot;#13#10echo Using CATALINA_HOME:   &quot;%CATALINA_HOME%&quot;#13#10echo Using CATALINA_TMPDIR: &quot;%CATALINA_TMPDIR%&quot;#13#10if &quot;&quot;%1&quot;&quot; == &quot;&quot;debug&quot;&quot; goto use_jdk#13#10echo Using JRE_HOME:        &quot;%JRE_HOME%&quot;#13#10goto java_dir_displayed#13#10:use_jdk#13#10echo Using JAVA_HOME:       &quot;%JAVA_HOME%&quot;#13#10:java_dir_displayed#13#10echo Using CLASSPATH:       &quot;%CLASSPATH%&quot;#13#10" EVKind="0" EVValue="0"/>
+      <item ID="9" Item="SE" Title="执行 bin\Startup.bat 启动 tomcat" CreateTime="2019/4/16 21:54:29" UpdateTime="2020/2/29 10:11:19" Desc="执行 bin\Startup.bat 启动 tomcat" EVKind="0" EVValue="0" SEOperation="open" SEFileName="Startup.bat" SEDirectory="{Tomcat Bin目录}"/>
+      <item ID="10" Item="LBL" Title="验证" CreateTime="2019/4/16 21:07:05" UpdateTime="2020/2/29 10:11:22" BrowseText="http://localhost:8080" Desc="验证" EVKind="0" EVValue="0"/>
+    </Items>
+  </DevEnvItems>
+</BizShellII>

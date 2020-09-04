@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<Demo>
+  <item>
+    <ID aa="aa" bb="bb">1</ID>
+    <Name>张三</Name>
+    <Age>10</Age>
+    <Score>91</Score>
+  </item>
+  <item>
+    <ID aa="cc" bb="dd">2</ID>
+    <Name>李四</Name>
+    <Age>20</Age>
+    <Score>92.3</Score>
+  </item>
+  <item>
+    <ID>3</ID>
+    <Name>王五</Name>
+    <Age>30</Age>
+    <Score>93.45</Score>
+  </item>
+  <item>
+    <ID>4</ID>
+    <Name>赵六</Name>
+    <Age>40</Age>
+    <Score>94.567</Score>
+  </item>
+  <item>
+    <ID>5</ID>
+    <Name>XmlFile</Name>
+  </item>
+  <item>
+    <ID>6</ID>
+    <Name>1234</Name>
+  </item>
+</Demo>

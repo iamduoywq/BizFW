@@ -1,0 +1,11 @@
+done uBizDllComm 需要再简化
+done 1. IMsgPipe ?
+done 2. IConfig ?
+done MiniERP.dll 重写
+
+[2020年 Plan]
+BLOB 读写，已经完成，需要继续。
+IOCP Service
+
+[Doing]
+MiniFileServer
